@@ -2,7 +2,7 @@ import Navbar from "@/componenets/Navbar/Navbar";
 import React from "react";
 import Image from "next/image";
 import AuthModal from "@/componenets/Navbar/Modals/AuthModal";
-import { authModalState } from "@/atoms/authModelAtom";
+import { authModalState } from "@/atoms/authModalAtom";
 import { useRecoilValue } from "recoil";
 
 type AuthPageProps = {};

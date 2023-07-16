@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { IoClose } from "react-icons/io5";
 import Login from "./Login";
 import Signup from "./Signup";
-import ResetPAssword from "./ResetPAssword";
+import ResetPassword from "./ResetPassword";
 import { useRecoilValue, useSetRecoilState } from "recoil";
-import { authModalState } from "@/atoms/authModelAtom";
+import { authModalState } from "@/atoms/authModalAtom";
 
 type AuthModalProps = {};
 
@@ -34,7 +34,7 @@ const AuthModal: React.FC<AuthModalProps> = () => {
             ) : authModal.type === "register" ? (
               <Signup />
             ) : (
-              <ResetPAssword />
+              <ResetPassword />
             )}
           </div>
         </div>

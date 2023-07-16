@@ -1,5 +1,5 @@
 import { useSetRecoilState } from "recoil";
-import { authModalState } from "@/atoms/authModelAtom";
+import { authModalState } from "@/atoms/authModalAtom";
 import React from "react";
 
 type LoginProps = {};
