@@ -27,6 +27,7 @@ const Login: React.FC<LoginProps> = () => {
   };
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     if (!inputs.email || !inputs.password)
       return alert("Please fill all fields");
     try {
